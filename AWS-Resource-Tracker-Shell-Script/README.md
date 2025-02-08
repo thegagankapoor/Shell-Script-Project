@@ -126,7 +126,7 @@ Add:
 ## 📸 Script Output  
 Below is the sample output of the script execution:  
 
-![Screenshot_985](https://github.com/user-attachments/assets/ed274850-0078-4ffa-8efd-e2c8ae3ce0e0)
+![Screenshot_985](https://github.com/user-attachments/assets/06940df2-9e74-4924-b5ce-76147f16530a)
 
 
 
