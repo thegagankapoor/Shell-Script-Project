@@ -65,8 +65,8 @@ Tutorial how to launch EC2 Instance:
 
 ### 2️⃣ Clone the GitHub Repository  
 ```bash
-git clone [https://github.com/your-repo/github-api](https://github.com/thegagankapoor/Shell-Script-Project.git)
-cd github-api
+git clone https://github.com/thegagankapoor/Shell-Script-Project.git
+cd Shell-Script-Project/GitHub-Repo-Access-Tracker
 ```
 
 ### 3️⃣ Install Dependencies  
