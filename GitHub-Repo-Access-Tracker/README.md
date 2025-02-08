@@ -44,7 +44,11 @@ To access the **GitHub API** you need a **Personal Access Token**. Follow these 
    - Set an **expiration date** (optional but recommended).  
    - **Select the necessary permissions:**  
      As shown in the Image
-![Screenshot_7](https://github.com/user-attachments/assets/46345c8e-4a97-4d47-b2c0-6c325299c958) ![Screenshot_8](https://github.com/user-attachments/assets/8fcc0e9d-0129-4f9d-9c96-dfae422d281e) ![Screenshot_9](https://github.com/user-attachments/assets/af4ff640-37c7-4f73-8c64-578f695438ac)
+![Screenshot_7](https://github.com/user-attachments/assets/5990a2fd-1256-4b68-839c-e58069e7b6f5)
+![Screenshot_8](https://github.com/user-attachments/assets/596b3293-f16a-41ac-88f8-79e43ff835af)
+![Screenshot_9](https://github.com/user-attachments/assets/73c22dca-052b-4fe2-ad91-c481c64a6cdc)
+
+
 
 4️⃣ **Generate and Copy the Token:**  
    - Click **"Generate Token"**.  
@@ -95,7 +99,8 @@ chmod 700 list-users.sh
 
 2️⃣ **Run the script with org & repo name** 
 To do this you have to make your own organization on GitHub then make repository and then give access to that organization with another GitHub account.
- ![Screenshot_988](https://github.com/user-attachments/assets/43d4983a-ee62-4810-81e6-503112b1f9d5)
+![Screenshot_988](https://github.com/user-attachments/assets/91f4402a-643f-4ef7-a71a-3c84caf7bf34)
+
 
 ```bash
 ./list-users.sh devops-by-gagan practice
@@ -118,7 +123,8 @@ Add:
 ---
 
 ## 📸 Script Output  
-![Screenshot_13](https://github.com/user-attachments/assets/486d914a-d690-414e-912c-5f554687d8af)
+![Screenshot_13](https://github.com/user-attachments/assets/9151c2c8-30af-4152-93f7-e71b9c2dfb7e)
+
 
 
 
