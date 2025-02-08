@@ -44,6 +44,7 @@ To access the **GitHub API** you need a **Personal Access Token**. Follow these 
    - Set an **expiration date** (optional but recommended).  
    - **Select the necessary permissions:**  
      As shown in the Image
+
 ![Screenshot_7](https://github.com/user-attachments/assets/5990a2fd-1256-4b68-839c-e58069e7b6f5)
 ![Screenshot_8](https://github.com/user-attachments/assets/596b3293-f16a-41ac-88f8-79e43ff835af)
 ![Screenshot_9](https://github.com/user-attachments/assets/73c22dca-052b-4fe2-ad91-c481c64a6cdc)
