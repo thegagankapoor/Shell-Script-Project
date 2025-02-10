@@ -21,3 +21,7 @@ Welcome to **Shell Script Projects**! This repository contains **real-world auto
 - **AWS CLI** (for AWS scripts)  
 - **GitHub API Token** (for GitHub scripts)  
 - **jq** (for JSON processing) 
+
+Special thanks to Abhishek Veeramalla.
+
+
