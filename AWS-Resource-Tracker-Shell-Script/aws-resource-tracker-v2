@@ -1,0 +1,22 @@
+#!/bin/bash
+
+########################################
+# Author: Gagan Kapoor
+# Date: 2025-05-27
+# Description: This script will tell you about the usage of AWS Resources
+# Version: v2
+########################################
+
+
+aws ec2 describe-instances --query "Reservations[].Instances[].{ID:InstanceId,Type:InstanceType, AZ: Placement.AvailabilityZone, Launch: LaunchTime}" \
+  --output table
+
+aws s3api list-buckets --query "Buckets[].{Name:Name, CreationDate:CreationDate}" \
+  --output table
+
+aws iam list-users --query "Users[].{Name:UserName, CreationDate:CreateDate}" \
+ --output table
+
+aws ec2 describe-instances --filter "Name=instance-state-name,Values=stopped" \
+  --query "Reservations[].Instances[].{ID:InstanceId,Type:InstanceType, AZ: Placement.AvailabilityZone, Launch: LaunchTime}" \
+  --output table
