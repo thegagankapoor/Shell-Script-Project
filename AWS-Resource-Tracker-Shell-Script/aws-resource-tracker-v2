@@ -7,16 +7,19 @@
 # Version: v2
 ########################################
 
-
+# Query all EC2 instances and display their Instance ID, Type, Availability Zone, and Launch Time in a table format
 aws ec2 describe-instances --query "Reservations[].Instances[].{ID:InstanceId,Type:InstanceType, AZ: Placement.AvailabilityZone, Launch: LaunchTime}" \
   --output table
 
+# List all S3 buckets and display their Name and Creation Date in a table format
 aws s3api list-buckets --query "Buckets[].{Name:Name, CreationDate:CreationDate}" \
   --output table
 
+# List all IAM users and display their User Name and Creation Date in a table format
 aws iam list-users --query "Users[].{Name:UserName, CreationDate:CreateDate}" \
  --output table
 
+# Query stopped EC2 instances and display their Instance ID, Type, Availability Zone, and Launch Time in a table format
 aws ec2 describe-instances --filter "Name=instance-state-name,Values=stopped" \
   --query "Reservations[].Instances[].{ID:InstanceId,Type:InstanceType, AZ: Placement.AvailabilityZone, Launch: LaunchTime}" \
   --output table
